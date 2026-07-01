@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart House Price Prediction</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Clouds -->
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+
+    <!-- ====== THEME TOGGLE BUTTON 1 (Header - Top Right) ====== -->
+    <button class="theme-toggle header-toggle" id="themeToggle1" aria-label="Switch theme">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+    </button>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-house"></i>
+            Smart House Price Prediction
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Predict House Prices</h1>
+        <p>AI & Machine Learning Based House Price Prediction System</p>
+    </section>
+
+    <!-- Main Card -->
+    <div class="container">
+        <div class="card">
+            <h2>Enter House Details</h2>
+            <div class="form-container">
+                <div class="input-box">
+                    <label>Overall Quality</label>
+                    <input type="number" id="OverallQual" placeholder="1 - 10">
+                </div>
+                <div class="input-box">
+                    <label>Living Area</label>
+                    <input type="number" id="GrLivArea" placeholder="1800">
+                </div>
+                <div class="input-box">
+                    <label>Garage Cars</label>
+                    <input type="number" id="GarageCars" placeholder="2">
+                </div>
+                <div class="input-box">
+                    <label>Garage Area</label>
+                    <input type="number" id="GarageArea" placeholder="500">
+                </div>
+                <div class="input-box">
+                    <label>Basement Area</label>
+                    <input type="number" id="TotalBsmtSF" placeholder="900">
+                </div>
+                <div class="input-box">
+                    <label>Full Bathrooms</label>
+                    <input type="number" id="FullBath" placeholder="2">
+                </div>
+                <div class="input-box">
+                    <label>Year Built</label>
+                    <input type="number" id="YearBuilt" placeholder="2005">
+                </div>
+                <div class="input-box">
+                    <label>Year Renovated</label>
+                    <input type="number" id="YearRemodAdd" placeholder="2010">
+                </div>
+                <div class="input-box">
+                    <label>Lot Area</label>
+                    <input type="number" id="LotArea" placeholder="8500">
+                </div>
+                <div class="input-box">
+                    <label>Bedrooms</label>
+                    <input type="number" id="BedroomAbvGr" placeholder="3">
+                </div>
+            </div>
+            <button id="predictBtn">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                Predict Price
+            </button>
+        </div>
+    </div>
+
+    <!-- Result -->
+    <div class="result-card">
+        <h2>
+            <i class="fa-solid fa-sack-dollar"></i>
+            Estimated Price
+        </h2>
+        <h1 id="price">₹ 0</h1>
+    </div>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="feature">
+            <i class="fa-solid fa-database"></i>
+            <h3>1460+</h3>
+            <p>Training Records</p>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>80%</h3>
+            <p>Model Accuracy</p>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Machine Learning</h3>
+            <p>Linear Regression</p>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-bolt"></i>
+            <h3>Fast API</h3>
+            <p>Real Time Prediction</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 Smart House Price Prediction |
+        Built with ❤️ using HTML, CSS, JavaScript & FastAPI
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
