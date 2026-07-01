@@ -162,4 +162,4 @@ GitHub:
 https://github.com/prashant-018
 
 LinkedIn:
-[(Add your LinkedIn profile)](https://www.linkedin.com/in/prashant-shrivastavaprashant-webdev/?skipRedirect=true)
+[(PrashantShrivastavaLinkedIn profile)](https://www.linkedin.com/in/prashant-shrivastavaprashant-webdev/?skipRedirect=true)
